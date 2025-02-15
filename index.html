@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My profile </title>
+        <link rel="stylesheet" type = 'text/css' href="./style/style.css">
+    </head>
+
+    <body>
+        <p><h1>
+            <b> DENISE PRISCILA MUWANGUZI</b>
+        </h1></p>
+
+
+<!--INTRODUCTION-->
+        <p>
+            I am a second year Computer Science student with a strong passion for cybersecurity. <br>
+            With experience in leadership as a former MP for the Faculty of Engineering, Design, and Technology, I have developed strong managerial and leadership skills.<br>
+            I am also interested in a research project on AI-powered job matching platforms.
+        </p>
+
+<!--PERSONAL DETAILS-->
+        <ul>
+            <li>Full name: Denise Priscila Muwanguzi</li>
+            <li>Student ID: B20237 </li>
+            <li>Course: BSCS 2:2 </li>
+            <li> Hobbies and interests: Watching series, adrenaline rush activities</li>
+        </ul>
+
+<!--PROFILE PICTURE-->
+        <img src = 'DEN.jpeg' alt = 'My Profile Picture' style = 'width: 290px; height: 300px;'> <br>
+
+<hr>
+
+<!--MY HOBBY-->
+        <!-- <video id="hobby" width = '320' height = '240' controls>
+            <source src = 'Bungee video.mp4' type = "video/mp4">
+        </video> <br> -->
+        
+        <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/l9m4cW2yxy0" 
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
+        
+        <button onclick="playVideo()">
+            PLAY
+        </button>
+
+        <button onclick="pauseVideo()">
+            PAUSE
+        </button>
+
+        <input type = 'range' id = 'volumeControl' min = '0' max = '1' step = '0.1' value = '1' onchange="adjustVolume()">
+
+        <label for = 'volumeControl'>
+            VOLUME
+        </label>
+
+        <script>
+            const video = document.getElementById("hobby");
+
+                function playVideo() {
+                    video.play();
+                }
+
+                function pauseVideo() {
+                    video.pause();
+                }
+
+                function adjustVolume() {
+                    video.volume = document.getElementById("volumeControl").value;
+                }
+        </script>
+
+
+<hr>
+
+<!--TABLE OF RESULTS-->
+
+<table border = '1'>
+    <tr>
+        <th>COURSE CODE</th>
+        <th>COURSE TITLE</th> 
+        <th>GRADE</th>
+        <th>CREDIT UNITS</th>
+    </tr>
+
+    <tr>
+        <td>CS 101</td>
+        <td>Essentials of hardware and software</td>
+        <td>87</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>CS 102</td>
+        <td>Structured programming</td>
+        <td>92</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>CS 103</td>
+        <td>Fundamentals of computing</td>
+        <td>85</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>CS 104</td>
+        <td>Discrete Maths</td>
+        <td>90</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>CS 105</td>
+        <td>Writing and Study skills</td>
+        <td>88</td>
+        <td>3</td>
+    </tr>
+</table>
+<br>
+<br>
+
+<!---HYPERLINKS-->
+
+<a href = https://www.mirembehotels.com>
+    CHECK OUT OUR WEBSITE
+</a>
+<br>
+<br>
+<a href = 'https://cse-ucu.com/'>
+    DEPARTMENT OF COMPUTING AND TECHNOLOGY
+</a>
+
+
+<!--CONTACT INFO-->
+<section>
+    <h3>
+        MY CONTACTS
+    </h3>
+    <ul>
+        <li>Email: denisepriscilamuwanguzi@gmail.com</li> <br> <br>
+        <li>
+            <a href="https://www.linkedin.com/in/denise-priscila-muwanguzi-b8243924a/">
+                My LinkedIn Profile
+            </a>
+        </li><br> <br>
+        <li>
+            <a href = 'https://github.com/PriscilaDenise'>
+                My GitHub Profile
+            </a>
+        </li><br><br>
+        <li>
+            <a href="mailto:denisepriscilamuwanguzi@gmail.com">EMAIL ME </a>
+        </li>
+
+
+
+    </ul>
+</section>
+
+    </body>
+</html>
